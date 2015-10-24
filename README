@@ -1,0 +1,17 @@
+
+Aplicación para recopilar noticias deportivas cada día.
+Al hacer clic en 'recopilar' en la interfaz gráfica, se invoca a scrapy para que extraiga los titulares y enlaces mediante una expresión regular y la almacena en la base de datos. El programa extrae la información de la BD y la muestra en la interfaz. 
+También tiene la opción de mostrar noticias de otros días (previamente almacenados en la BD).
+
+Realizado en Ubuntu con python 2.7
+Creado por: José María Fernández Campos
+
+
+# Ejecución:
+python2 proyecto_jmfc.py
+
+# Sentencia para crear tabla.
+CREATE TABLE Noticias(Enlace VARCHAR(200), Titulo VARCHAR(200), Fecha VARCHAR(20));
+
+
+	
